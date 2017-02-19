@@ -24,7 +24,7 @@ $font-path: "../assets/fonts";
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #387ef5,
+  primary:    #08b8e1,
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
@@ -36,20 +36,27 @@ $colors: (
 // --------------------------------------------------
 // iOS only Sass variables can go here
 
+$tabs-ios-tab-min-height : 30px !default;
+.tabs-ios .tabbar{
+	background: #fff !important;
+}
 
-
+$toolbar-ios-height: 35px;
 
 // App Material Design Variables
 // --------------------------------------------------
 // Material Design only Sass variables can go here
 
-
-
+$tabs-md-tab-min-height : 4.6rem;
+$toolbar-md-height: 35px;
 
 // App Windows Variables
 // --------------------------------------------------
 // Windows only Sass variables can go here
 
+
+$tabs-md-tab-min-height : 3.6rem;
+$toolbar-wp-height: 35px;
 
 
 
@@ -61,7 +68,6 @@ $colors: (
 // default are overridden.
 
 @import "ionic.theme.default";
-
 
 // Ionicons
 // --------------------------------------------------
