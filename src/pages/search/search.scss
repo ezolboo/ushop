@@ -1,3 +1,21 @@
 page-search {
-
+	input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0);
+    background-image: url('../assets/icon/search.png');
+    background-position: 10px 10px; 
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 60px;
+    color: #fff;
+    
+  
+}
+	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  	color: #e8e8e8;
+	}
 }

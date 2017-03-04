@@ -31,15 +31,13 @@ $colors: (
   dark:       #222
 );
 
-
+$searchbar-ios-input-search-icon-color: #aaaaaa !important;
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
 
 $tabs-ios-tab-min-height : 30px !default;
-.tabs-ios .tabbar{
-	background: #fff !important;
-}
+
 
 $toolbar-ios-height: 35px;
 

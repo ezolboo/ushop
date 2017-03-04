@@ -1,3 +1,12 @@
 page-home {
+	.border {
+		border-width:1px; 
+		border-bottom-style: solid; 
+		border-left-style: solid;	
+		border-color: rgba(0,0,0,0.1);
+	}
+	.padding {
+		padding: 25% 10% 20% 10%;
+	}
 
 }
